@@ -1,9 +1,9 @@
 name: hola-mundo
-on [push]
+on: [push]
 jobs:
   hola-mundo:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Hola mundo
-    - run: min.py
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola mundo
+      - run: main.py
   
