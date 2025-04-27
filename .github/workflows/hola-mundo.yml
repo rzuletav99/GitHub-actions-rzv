@@ -1,5 +1,5 @@
-name: Python application
-
+name: Primer Ejercicio Github Actions
+run-name: Primer workflow en Github Actions
 on: [push]
 jobs:
   build:
