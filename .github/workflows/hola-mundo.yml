@@ -1,9 +1,19 @@
-name: hola-mundo
-on: [push]
+name: Python application
+
+on:
+  push:
+    branches: [ "main" ]
 jobs:
-  hola-mundo:
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Hola mundo
-      - run: main.py
-  
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.12"
+
+    - name: script-runing
+      run: python main.py
