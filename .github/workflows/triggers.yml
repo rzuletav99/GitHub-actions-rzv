@@ -1,4 +1,4 @@
-name: Triggers
+name: Segundo ejecicio github actions
 run-name: ¡Estoy aprendiendo a usar diferentes Triggers!
 on:
   push:
