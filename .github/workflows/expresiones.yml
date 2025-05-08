@@ -1,5 +1,5 @@
 
-name: Expresiones
+name: Tercer ejercicio github actions
 run-name: ¡Estoy aprendiendo a usar Expresiones!
 on:
   workflow_dispatch:
